@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="title_home">Home</string>
+    <string name="title_click">Test</string>
+    <string name="title_language">Language</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_live">Live</string>
+    <string name="no_text">Place your camera on some printed text.</string>
+    <string name="edit">Edit</string>
+    <string name="start">Lets Start</string>
+    <string name="save">Save</string>
+    <string name="about">About</string>
+    <string name="right_reserved">Copyright @2017.All Rights Reserved.</string>
+    <string name="enquiry"> getad.applications@gmail.com</string>
+    <string name="enquiry_2">For Enquiry :</string>
+    <string name="version">Version : 1.0.0</string>
+    <string name="starting">Test your application</string>
+
+    <string name="title_information">Information</string>
+    <string name="proceed">Proceed</string>
+    <string name="hindi">Hindi</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.visionproject.android.vision_progect_23.MainActivity"
+    android:background="@color/White"
+    >
+
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/relativelayoutmiddle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/relativelayoutbottom"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                        <EditText
+                            android:id="@+id/editText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginStart="20sp"
+                            android:layout_marginTop="10sp"
+                            android:text="@string/start"
+                            android:textColor="@color/colorPrimary" />
+
+                        <Button
+                            android:id="@+id/translateButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="63dp"
+                            android:text="Translate" />
+
+                        <TextView
+                            android:id="@+id/translateView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/editText"
+                            android:layout_alignStart="@+id/editText"
+                            android:layout_alignTop="@+id/editText"
+                            android:text="TextView"
+                            android:visibility="gone"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/relativelayoutbottom">
+
+                        <android.support.design.widget.BottomNavigationView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/toolbar_bottom"
+                            android:id="@+id/navigation_bar"
+                            app:menu="@menu/navigation">
+
+                        </android.support.design.widget.BottomNavigationView>
+
+                </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
